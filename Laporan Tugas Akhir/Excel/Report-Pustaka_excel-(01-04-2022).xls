@@ -1,0 +1,66 @@
+<!-- Content Here  -->
+   
+ <div class="row">
+            <div class="col-12">
+              <h4 class="display-6 text-center">Pustaka Perpustakaan</h4>
+            </div>
+             <div class="col-12 table-responsive">
+               <table class="table table-hover table-striped table-bordered">
+                    <caption>List Pustaka Perpustakaan</caption>
+                      <thead>
+                         <tr>
+                            <th width='1'>#</th>
+                            <th>Kode Pustaka</th>
+                            <th>Judul</th>
+                            <th>Jenis </th>
+                            <th>Nomor Rak</th>
+                            <th>Pengarang</th>
+                            <th>Penerbit</th>
+                            <th>Tahun Terbit</th>
+                            <th>Tanggal_Masuk</th>
+                            <th>Stok </th>
+                            <th>Cover</th>
+                         </tr>
+                      </thead>
+                    <tbody>
+                                             <tr>
+                          <td>1</td>
+                          <td>P0001</td>
+                          <td>Bumi</td>
+                          <td>Buku</td>
+                          <td>3</td>
+                          <td>Tere Liye</td>
+                          <td>gramedia pustaka jakarta</td>
+                          <td>2014</td>
+                          <td>2022-03-24</td>
+                          <td>13</td>
+                          <td>
+                            <span class="tt" data-bs-placement="left" title="bumi.jpg">
+                                 <img id="img-preview-edit" src="../buku/cover/bumi.jpg" width="100" alt="Gambar ">
+                              </span>
+                          </td>
+                       </tr>
+                                              <tr>
+                          <td>2</td>
+                          <td>P0002</td>
+                          <td>Dilan: Dia adalah Dilanku tahun 1990</td>
+                          <td>Novel</td>
+                          <td>3</td>
+                          <td>Pidi Baiq</td>
+                          <td>Pastel Books</td>
+                          <td>2014</td>
+                          <td>2022-03-24</td>
+                          <td>1</td>
+                          <td>
+                            <span class="tt" data-bs-placement="left" title="dilan_1990.jpg">
+                                 <img id="img-preview-edit" src="../buku/cover/dilan_1990.jpg" width="100" alt="Gambar ">
+                              </span>
+                          </td>
+                       </tr>
+                                           </tbody>
+               </table>
+             </div>
+         </div>
+
+
+<!-- End Content -->

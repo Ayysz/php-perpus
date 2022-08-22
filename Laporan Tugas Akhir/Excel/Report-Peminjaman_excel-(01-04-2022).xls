@@ -1,0 +1,121 @@
+<br />
+<b>Warning</b>:  include(../../config/koneksi.php): failed to open stream: No such file or directory in <b>C:\xampp\htdocs\Aing\perpus2\report\format\pinjam.php</b> on line <b>3</b><br />
+<br />
+<b>Warning</b>:  include(): Failed opening '../../config/koneksi.php' for inclusion (include_path='C:\xampp\php\PEAR') in <b>C:\xampp\htdocs\Aing\perpus2\report\format\pinjam.php</b> on line <b>3</b><br />
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Report Peminjaman</title>
+  <!-- <link rel="stylesheet" href="../../assets/css/style.css"> -->
+   <!-- Boostrap Link -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <!-- Font Awesome Link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css" integrity="sha512-E+53kXnJyuZFSz75xSmTfCpUNj3gp9Bd80TeQQMTPJTVWDRHPOpEYczGwWtsZXvaiz27cqvhdH8U+g/NMYua3A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container-fluid">
+     <div class="card">
+       <!-- <div class="card-header py-3">
+         <div class="row">
+           <div class="col-sm-12">
+             <img src="../../assets/img/gl.png" class="float-start" alt="Perpus aing" width="120">
+             <div class="text-center">
+               <h5 class="display-5">Gotham City Public Library</h5>
+               <h6>Gotham city </h6>
+               <h6>Phone +182*****</h6>
+             </div>
+           </div>
+         </div>
+       </div> -->
+       <div class="card-body">
+         <div class="row">
+            <div class="col-12">
+              <h1 class="display-6 text-center">Peminjaman Pustaka</h1>
+            </div>
+             <div class="col-12 table-responsive">
+               <table class="table table-hover table-bordered table-striped">
+                 <thead>
+                   <tr>
+                     <th>#</th>
+                     <th>Nomor Peminjaman</th>
+                     <th>Tanggal Pinjam</th>
+                     <th>Nomor Anggota</th>
+                     <th>Nama Member</th>
+                     <th>Jurusan</th>
+                     <th>Pustaka</th>
+                     <th>Qty.</th>
+                   </tr>
+                 </thead>
+                 <tbody>
+                                         <tr>
+                        <td>1</td>
+                        <td>000027</td>
+                        <td>2022-03-29</td>
+                        <td>22030002</td>
+                        <td>Abyan</td>
+                        <td>TKJ</td>
+                        <td>Bumi</td>
+                        <td>1</td>  
+                      </tr>
+                                         <tr>
+                        <td>2</td>
+                        <td>000027</td>
+                        <td>2022-03-29</td>
+                        <td>22030002</td>
+                        <td>Abyan</td>
+                        <td>TKJ</td>
+                        <td>Bumi</td>
+                        <td>1</td>  
+                      </tr>
+                                         <tr>
+                        <td>3</td>
+                        <td>000028</td>
+                        <td>2022-03-29</td>
+                        <td>22050004</td>
+                        <td>Jupar</td>
+                        <td>BKP</td>
+                        <td>Dilan: Dia adalah Dilanku tahun 1990</td>
+                        <td>1</td>  
+                      </tr>
+                                         <tr>
+                        <td>4</td>
+                        <td>000028</td>
+                        <td>2022-03-29</td>
+                        <td>22050004</td>
+                        <td>Jupar</td>
+                        <td>BKP</td>
+                        <td>Bumi</td>
+                        <td>1</td>  
+                      </tr>
+                                         <tr>
+                        <td>5</td>
+                        <td>000035</td>
+                        <td>2022-03-31</td>
+                        <td>22100005</td>
+                        <td>Lala</td>
+                        <td>SIJA</td>
+                        <td>Dilan: Dia adalah Dilanku tahun 1990</td>
+                        <td>1</td>  
+                      </tr>
+                                         <tr>
+                        <td>6</td>
+                        <td>000041</td>
+                        <td>2022-03-31</td>
+                        <td>22100005</td>
+                        <td>Lala</td>
+                        <td>SIJA</td>
+                        <td>Dilan: Dia adalah Dilanku tahun 1990</td>
+                        <td>2</td>  
+                      </tr>
+                                    </tbody>
+               </table>
+             </div>
+          </div>
+       </div>
+     </div>
+    </div>
+
+</body>
+</html>
