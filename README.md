@@ -1,7 +1,11 @@
-# php-perpus
+# Gotham - Library
 project-perpustakaan-php-oop
-Changelog (4/1/2022) ©2022
+
+Changelog (22/08/2022) ©2022
 Project Tugas Akhir Pemrograman Web dan Perangkat Bergerak
+
+Untuk dokumentasi lebih lanjutnya bisa buka pdf yang ada pada folder laporan studi kasus
+
 
 Pembuat 	: Ammar Ayyis Azizan
 Absen		: 04
