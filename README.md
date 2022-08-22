@@ -8,14 +8,14 @@ Absen		: 04
 Kelas		: XI RPL 1
 
 Menggunakan	: 
-		 - Bootstrap 5
-		 - Jquery
-		 - DataTables
-		 - Html2Pdf
-		 - PopperJs
-		 - Font Awesome
-		 - SweetAlert2
-		 - File Upload With Preview
+- Bootstrap 5 
+- Jquery
+- DataTables
+- Html2Pdf
+- PopperJs 
+- Font Awesome
+- SweetAlert2
+- File Upload With Preview
 
 host 		: localhost
 user 		: root
@@ -51,7 +51,7 @@ Setiap anggota maks meminjam 3 buku dan dengan waktu peminjaman 10 hari dari mas
 
 4.pengembalian pustaka dan denda
 [2]table pengembalian:
-- no pengembalian {primary
+- no pengembalian {primary}
 - jatuh tempo pengembalian
 - lama pengembalian
 - nama anggota dari table anggota
@@ -70,8 +70,8 @@ laporan anggota baru (banyak anggota baru perbulan)
 
 6.Skenario manajemen pustaka
 [3]table pustaka:
-- nomor pustaka {primary y
-- nomor rak [gajadi useless]
+- nomor pustaka {primary}
+- nomor rak [gajadi karna rasanya useless]
 - judul pustaka y
 - pengarang y
 - tahun terbit
